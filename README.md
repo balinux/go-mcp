@@ -20,6 +20,25 @@ Server MCP ini mengekspos 3 (tiga) alat yang dapat digunakan:
    - **Parameter:**
      - `nomor` (number, wajib): Nomor surat (misalnya 1 untuk Al-Fatihah, 114 untuk An-Nas).
 
+## Struktur Proyek
+
+Berikut adalah struktur direktori proyek Go MCP Demo:
+
+```
+go-mcp/
+├── main.go           # Entry point dan konfigurasi MCP server
+├── go.mod             # File dependensi Go
+├── go.sum             # Checksum dependensi
+├── README.md          # Dokumentasi proyek
+└── image.png          # Gambar demo struktur proyek
+```
+
+### Demo Struktur Proyek
+
+![Struktur Proyek](image.png)
+
+Gambar di atas menunjukkan visualisasi struktur proyek dan hubungan antar komponen dalam implementasi MCP server ini.
+
 ## Prasyarat
 
 Pastikan Anda telah menginstal:
